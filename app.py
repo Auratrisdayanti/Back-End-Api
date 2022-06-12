@@ -1,5 +1,5 @@
 from tensorflow.keras.models import load_model
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, jsonify
 import cv2
 import numpy as np
 from flask_cors import CORS, cross_origin
